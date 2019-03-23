@@ -15,7 +15,7 @@
     background-color: rgb(51, 51, 51);
     color: aliceblue;
 	grid-gap: 15px;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
    /* grid-template-rows: minmax(100px, auto) ;*/
 }
 
@@ -25,7 +25,7 @@
 
 .infoEmpresa{
   text-align: left;
- 
+ margin-left: 80px;
   font-weight: 15px;
   
 }
@@ -45,12 +45,36 @@
   position: relative;
   cursor: default;
   font-size: 15px;
-  bottom:-55px;
+  bottom:-45px;
   padding-left: 65px;
 }
 
 .byronslogo{
   position: relative;
   width: 100px;
-  bottom:-10px;
+  bottom:-50px;
+  right: -80px;
+}
+
+.mercadopago{
+ padding-left: 15px;
+  width: 150px;
+
+}
+
+.visa{
+  padding-top: -10px;
+  width: 50px;
+  
+}
+
+.mastercard{
+ padding-top: 5px;
+  width: 100px;
+  
+}
+
+.pagofacil{
+  width: 80px;
+  
 }
